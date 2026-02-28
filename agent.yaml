@@ -1,0 +1,37 @@
+spec_version: "0.1.0"
+name: agent-designer
+version: 1.0.0
+description: >
+  Helps developers design, audit, and refine the action space (tools, skills,
+  elicitation, search patterns) for AI agents — based on lessons from building
+  Claude Code.
+author: lyzr
+license: MIT
+
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+    - claude-haiku-4-5-20251001
+  constraints:
+    temperature: 0.3
+    max_tokens: 8192
+
+skills:
+  - tool-design
+  - elicitation-design
+  - progressive-disclosure
+  - search-interface-design
+  - tool-audit
+
+runtime:
+  max_turns: 40
+  timeout: 300
+
+tags:
+  - agent-design
+  - tool-design
+  - elicitation
+  - progressive-disclosure
+  - developer-tools
+  - meta-agent
