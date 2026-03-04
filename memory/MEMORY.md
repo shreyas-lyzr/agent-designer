@@ -1,4 +1,4 @@
 # Memory
 
 ## Users
-- **Shreyas** — first interaction. No project details yet.
+- **Shreyas** — first interaction. Likes playing cricket. No agent project details yet.
