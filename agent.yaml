@@ -9,7 +9,7 @@ author: lyzr
 license: MIT
 
 model:
-  preferred: claude-opus-4-6
+  preferred: anthropic:claude-opus-4-6
   fallback:
     - claude-sonnet-4-5-20250929
     - claude-haiku-4-5-20251001
